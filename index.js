@@ -30,6 +30,7 @@ function viewCart() {
   if (cart.length > 2) {
     cart.forEach(function(object, index, array) {
       if (index > 0 && index < cart.length) {
+        object = object
         console.log(object["itemName"], object["itemPrice"]);  };
       })
       //take the object.itemName & object.itemPrice of each object and create mutliple `itemName at $itemPrice,` statements and we want to push them all into a variable/array }
