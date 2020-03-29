@@ -31,7 +31,7 @@ function viewCart() {
     var newArray = []
     for (let object = 0; object < cart.length; object++) {
       var index = [cart[index]]
-      if (index > 0 && index < cart.length) {
+      if (index = 0 && index < cart.length) {
         const middleObjects = `${object["itemName"]} at $${object["itemName"]},`;
         newArray.push(middleObjects);
     }
