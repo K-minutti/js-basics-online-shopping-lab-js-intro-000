@@ -28,24 +28,20 @@ function viewCart() {
    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, and ${cart[1]["itemName"]} at $${cart[1]["itemPrice"]}.`}
 
   if (cart.length > 2) {
-    for(let object = 0; object < cart.length; object++) {
+    for (let object = 0; object < cart.length; object++) {
       if (indexOf(object) > 0 && indexOf(object) < cart.length) {
-        var object = object
-        var middleObjects = `${object["itemName"]} at $${object["itemName"]},`
-        return middleObjects
-      }
+        var object = object;
+        const middleObjects = `${object["itemName"]} at $${object["itemName"]},`;
+        return middleObjects;
+      };
     }
-    cart.forEach(function(object, index, array) {
-      if (index > 0 && index < cart.length) {
-       var object = object
-      // var middleitems = []
-      console.log(object["itemName"] + " at $" + object["itemPrice"] + ",")}
-      });
+      //console.log(object["itemName"] + " at $" + object["itemPrice"] + ",")}
+      };
       //take the object.itemName & object.itemPrice of each object and create mutliple `itemName at $itemPrice,` statements and we want to push them all into a variable/array }
 
     //return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, ${loopvariable} and ${cart[-1]["itemName"]} at $${cart[-1]["itemPrice"]}.`
   }
-}
+
 
 
 
