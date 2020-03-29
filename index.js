@@ -43,11 +43,8 @@ for(let i =0, len=cart.length; i<len; i++ ) {
 // need it to include a ", after every element except the last and then one that adds "and"
 // in front of the last element of the cart array
 
-function removeFromCart(item) {
-}
+function removeFromCart(item) {}
 
-function total() {
-}
+function total() {}
 
-function placeOrder(cardNumber) {
-}
+function placeOrder(cardNumber) {}
