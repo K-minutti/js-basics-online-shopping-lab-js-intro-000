@@ -41,13 +41,29 @@ function total() {
 }
 
 
-function removeFromCart(item) {
-  // check if item === any of the values of itemName in each object in
-  // cart array if it is then we remove the entire object from the cart using the .splice[] 
-  // else we return `That item is not in your cart.`
+/*function removeFromCart(item) {
+  loop through the cart array retrieving every itemName in each object set it equal to variable
+  if (variable[itemName] === item ) {
+    cart.splice(the index of the variable[itemName])
+  }
+  else { console.log(`That item is not in your cart.`);
+  }
+  return cart
+}*/
 
+function removeFromCart(item){
 
+  for(var i = 0, l = cart.length; i < l; i++){
 
+  for(var list in cart[i]){
+      if(item === list){
+        cart.splice(i,1)
+        return cart
+       }
+    }
+  }
+  console.log("That item is not in your cart.")
+  return cart
 }
 
 
