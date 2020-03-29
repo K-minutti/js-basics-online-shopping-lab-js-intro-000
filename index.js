@@ -28,11 +28,11 @@ function viewCart() {
    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, and ${cart[1]["itemName"]} at $${cart[1]["itemPrice"]}.`}
 
   if (cart.length > 2) {
+    var newArray = []
     for (let object = 0; object < cart.length; object++) {
       if (indexOf(object) > 0 && indexOf(object) < cart.length) {
         const middleObjects = `${object["itemName"]} at $${object["itemName"]},`;
-        return middleObjects;
-      };
+        newArray.push(middleObjects);};
     }
       //console.log(object["itemName"] + " at $" + object["itemPrice"] + ",")}
       };
