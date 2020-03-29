@@ -28,9 +28,7 @@ function viewCart() {
    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, and ${cart[1]["itemName"]} at $${cart[1]["itemPrice"]}.`}
 
   if (cart.length > 2) {
-    cart.forEach(function(objectI, index) {
-      var objectI = objectI
-      var index = index
+    cart.forEach(function(object, index, array) {
       if (index > 0 && index < cart.length) {
         console.log(objectI["itemName"], objectI["itemPrice"]);  };
       })
