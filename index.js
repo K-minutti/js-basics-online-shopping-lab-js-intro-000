@@ -29,7 +29,6 @@ function viewCart() {
    return `In you cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}.`
       }
     }
-  }
 }
 
 
