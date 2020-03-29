@@ -32,7 +32,8 @@ function viewCart() {
     //const middle = cart[i].splice() after first and before last
     const last = cart[-1]
 
-    return `In your cart, you have ${first['itemName']} at ${first['ItemPrice'],  and ${last.ItemName} at ${last.ItemPrice}.`
+    return `In your cart, you have ${first[itemName]} at ${first[ItemPrice]},  and ${last.ItemName} at ${last.ItemPrice}.
+    
 //${X at $X loop },
 
     //return  `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice},`
