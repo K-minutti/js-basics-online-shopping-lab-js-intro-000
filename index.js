@@ -29,8 +29,9 @@ function viewCart() {
 
   if (cart.length > 2) {
     var newArray = []
+    var index = indexOf(object)
     for (let object = 0; object < cart.length; object++) {
-      if (indexOf(object) > 0 && indexOf(object) < cart.length) {
+      if (index > 0 && index < cart.length) {
         const middleObjects = `${object["itemName"]} at $${object["itemName"]},`;
         newArray.push(middleObjects);};
     }
