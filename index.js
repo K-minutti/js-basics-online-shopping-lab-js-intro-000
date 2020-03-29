@@ -42,9 +42,16 @@ function total() {
 
 
 function removeFromCart(item) {
-  if (item == )
+  for (var n = 0; n < cart.length; n++) {
+  var nameOfItem cart[n]['itemName'];
+  if (item == nameOfItem) { 
+    cart.splice(n,1);
+  }
 }
-
+  else {
+    return `That item is not in your cart.`
+  }
+}
 
 //function placeOrder(cardNumber) {}
 function placeOrder(cardNumber) {
