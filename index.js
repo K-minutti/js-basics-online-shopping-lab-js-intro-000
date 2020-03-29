@@ -27,7 +27,6 @@ function viewCart() {
     }
   if (cart.length > 1){
 for(let i =0; len<cart.length; i++ ) {
-  //inner iterator
     const first = cart[0]
     //const middle = cart[i].splice() after first and before last
     const last = cart[-1]
