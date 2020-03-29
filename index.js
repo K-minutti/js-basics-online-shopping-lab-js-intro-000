@@ -32,7 +32,6 @@ function viewCart() {
       if (index > 0 && index < cart.length) {
        var object = object
        //var middleitems = []
-       console.log(object["itemName"] + "at $" +  object["itemPrice"] + ","
       console.log(`${object["itemName"]} at $${object["itemPrice"]},`)
       };
       })
