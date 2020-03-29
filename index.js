@@ -44,12 +44,12 @@ function total() {
 function removeFromCart(item) {
   var nameOfItem = cart[n]['itemName'];
   for (var n = 0; n < cart.length; n++) {
-    if (item == !nameOfItem) {
+    if (item == nameOfItem) {
     cart.splice(n,1);
     return cart
   }
  }
- if (item !== nameOfItem) {
+ if (item == !nameOfItem) {
    return `That item is not in your cart.`
  }
 }
