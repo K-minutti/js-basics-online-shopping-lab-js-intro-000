@@ -50,6 +50,10 @@ function removeFromCart(item) {
       cart.splice(n,1);
       return cart;}
   }
+
+  if (nameOfItem !== item) {
+    return `That item is not in your cart.`
+  }
  }
 
 
