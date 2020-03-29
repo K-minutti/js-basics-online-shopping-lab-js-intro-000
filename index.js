@@ -25,9 +25,6 @@ function viewCart() {
       return `In your cart, you have ` +  cart[items].itemName + ` at $` + cart[items].itemPrice +`.`}
     }
   if (cart.length === 2) {
-    for (let twoItems in cart) {
-      return ` In your cart, you have ${cart[0][twoItems].itemName} at $${cart[0][twoItems].itemPrice}, and
-    //  ${cart[twoItems][-1].itemName} at //$${cart[twoItems][-1].itemPrice}.`
     }
   }
 }
