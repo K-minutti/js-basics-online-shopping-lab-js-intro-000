@@ -42,12 +42,12 @@ function total() {
 
 
 function removeFromCart(item) {
-  // check if item === any of the values of itemName in each object in 
+  // check if item === any of the values of itemName in each object in
   // cart array if it is then we remove the entire object from the cart using the .splice[] 
   // else we return `That item is not in your cart.`
 
 
-  
+
 }
 
 

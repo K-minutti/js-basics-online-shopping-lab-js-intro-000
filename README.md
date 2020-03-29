@@ -28,6 +28,9 @@ We've started you off with a `cart` variable that points at an empty array. Ther
     + If the item *is* present in the cart, the function should remove the object from the cart and then return the updated cart.
     + ***HINT***: Check each object's itemName value key to see if it matches the parameter, then remove it if it matches. You might find [Array.prototype.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) to be useful.
     + If the cart does not contain a matching item, the function should return `That item is not in your cart.`
+
+
+
 5. The `placeOrder()` function accepts one argument, a credit card number.
     + If no argument is received, the function should print out `Sorry, we don't have a credit card on file for you.`.
     + If a card number is received, the function should
