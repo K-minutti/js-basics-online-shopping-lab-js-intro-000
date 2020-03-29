@@ -49,8 +49,8 @@ function removeFromCart(item) {
     return cart
   }
  }
- if {
-
+ if (item !== nameOfItem) {
+   return `That item is not in your cart.`
  }
 }
 
