@@ -31,8 +31,9 @@ function viewCart() {
     return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, ${cart[1]["itemName"]} at $${cart[1]["itemPrice"]}, and ${cart[2]["itemName"]} at $${cart[2]["itemPrice"]}.`}
 }
 
+function total() {}
+
 function removeFromCart(item) {}
 
-function total() {}
 
 function placeOrder(cardNumber) {}
