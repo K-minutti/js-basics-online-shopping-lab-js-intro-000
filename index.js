@@ -30,8 +30,6 @@ for(let i =0, len=cart.length; i<len; i++ ) {
   //inner iterator
   for (let moreitems in cart[i]) {
     return  `In your cart, you have ${cart[i][moreitems]} at $${cart[i][moreitems]},`
-    // for the first object in the array
-
   //  X at $X, // for all the items in between
 
   //   and x at $X.}
@@ -39,7 +37,6 @@ for(let i =0, len=cart.length; i<len; i++ ) {
   }
  }
 }
-
 
 // if the cart array has more than one element it follows this format
 // `In your cart, you have bananas at $17, and pancake batter at $5.` so we
