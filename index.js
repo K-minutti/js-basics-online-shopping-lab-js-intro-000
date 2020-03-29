@@ -61,8 +61,9 @@ function removeFromCart(item) {
    if (cardNumber == null) {
      return `Sorry, we don't have a credit card on file for you.`;}
    if (cardNumber !== null){
-    return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
-    //return
-    cart = [];
+    var newTotal = total()
+        cart = [];
+    return `Your total cost is $${newTotal}, which will be charged to the card ${cardNumber}.`;
+    //return cart = [];
    }
  }
