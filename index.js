@@ -29,7 +29,7 @@ function viewCart() {
 for(let i =0, len=cart.length; i<len; i++ ) {
   //inner iterator
     const first =  cart[i].first()
-    const middle = cart[i].splice() after first and before last 
+    const middle = cart[i].splice() after first and before last
     const last = cart[i].last()
 
     return `In your cart, you have ${first.itemName} at ${first.ItemPrice}, ${X at $X loop }, and lastObjectItemName at $LastObjectItemPrice.`
