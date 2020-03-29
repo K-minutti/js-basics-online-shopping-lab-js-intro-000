@@ -42,14 +42,14 @@ function total() {
 
 
 function removeFromCart(item) {
-  var nameOfItem = cart[n]['itemName'];
   for (var n = 0; n < cart.length; n++) {
-    if (item == nameOfItem) {
-    cart.splice(n,1);
-    return cart
+
+
+  var nameOfItem = cart[n]['itemName'];
+    if (item == nameOfItem) { cart.splice(n,1) return cart;}
   }
  }
-}
+
 
 
 function placeOrder(cardNumber) {
