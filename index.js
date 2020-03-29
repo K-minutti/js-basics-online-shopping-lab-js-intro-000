@@ -26,10 +26,12 @@ function viewCart() {
     }
   if (cart.length === 2) {
    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, and ${cart[1]["itemName"]} at $${cart[1]["itemPrice"]}.`}
+   
   if (cart.length > 2) {
-    cart.forEach(function(object, index){
-      if (index>0 && index<cart.length){
-        console.log(object.itemName, object.itemPrice)    })}
+    cart.forEach(function(object, index) {
+      if (index > 0 && index < cart.length) {
+        console.log(object.itemName, object.itemPrice);  });
+      }
       //take the object.itemName & object.itemPrice of each object and create mutliple `itemName at $itemPrice,` statements and we want to push them all into a variable/array }
 
     //return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, ${loopvariable} and ${cart[-1]["itemName"]} at $${cart[-1]["itemPrice"]}.`
