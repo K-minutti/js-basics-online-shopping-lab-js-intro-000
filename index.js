@@ -21,6 +21,15 @@ function viewCart() {
   if (cart.length === 0) {
     return `Your shopping cart is empty.`;
    }
+  if (cart.length > 0 ) {
+
+    for (let itemN in cart) {
+      return `In your cart, you have` ${"cart[intemN]"}
+    }
+
+
+
+  }
 }
 
 
