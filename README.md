@@ -13,12 +13,16 @@ We've started you off with a `cart` variable that points at an empty array. Ther
     + The price of each item should be a randomly-generated integer between 1 and 100.
       * ***HINT***: Look into `Math.random()` and `Math.floor()`.
     + Upon the successful addition of a new item to the cart, the function should return `<itemName> has been added to your cart.` .
+
+
 2. The `viewCart()` function does not accept any arguments. It should loop over every item in your cart, returning the contents as one long, coherent statement in this format: `In your cart, you have bananas at $17, pancake batter at $5, and eggs at $49.`
     + If the cart is empty, the function should instead return `Your shopping cart is empty.`
     + ***Note***: Pay close attention to the syntax above. The returned statement should be a single sentence that begins with `In your cart, you have `, terminates in a period, and can assume the following shapes according to how many items the cart contains:
       * 1 item — `In your cart, you have bananas at $17.`
       * 2 items — `In your cart, you have bananas at $17, and pancake batter at $5.`
       * 3+ items — `In your cart, you have bananas at $17, pancake batter at $5, and eggs at $49.`
+
+
 3. The `total()` function accepts no arguments, iterates through the `cart` array, and returns the current total value of the items in the cart.
 4. The `removeFromCart()` function accepts one argument, the name of the item that should be removed.
     + If the item *is* present in the cart, the function should remove the object from the cart and then return the updated cart.

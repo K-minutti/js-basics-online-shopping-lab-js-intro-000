@@ -1,30 +1,39 @@
-var cart = [];
+var cart = []
 
 function getCart() {
- return cart;
+  return cart
 }
 
 function setCart(c) {
-  cart = c;
-  return cart;
+  cart = c
 }
 
-function addToCart(item) {
- // write your code here
+function addToCart(name) {
+ // name is equal to value passed
+var price = Math.floor(Math.random() * 100 ) + 1;// price is equal to a randomly generated number between 0 & 1 to the 100th power
+var item = { itemName: name, itemPrice: price };
+cart.push(item);
+return name + ` has been added to your cart.`;
 }
+
 
 function viewCart() {
-  // write your code here
+  if (cart.length === 0) {
+    return `Your shopping cart is empty.`;
+   }
+}
+
+
+// if the cart array has more than one element it follows this format
+// `In your cart, you have bananas at $17, and pancake batter at $5.` so we
+// need it to include a ", after every element except the last and then one that adds "and"
+// in front of the last element of the cart array
+
+function removeFromCart(item) {
 }
 
 function total() {
-  // write your code here
-}
-
-function removeFromCart(item) {
-  // write your code here
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
 }
