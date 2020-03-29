@@ -38,7 +38,7 @@ function viewCart() {
     //return  `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice},`
  }
 }
-}
+
 // if the cart array has more than one element it follows this format
 // `In your cart, you have bananas at $17, and pancake batter at $5.` so we
 // need it to include a ", after every element except the last and then one that adds "and"
