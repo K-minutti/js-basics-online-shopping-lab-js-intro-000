@@ -47,8 +47,8 @@ function removeFromCart(item) {
 
 //function placeOrder(cardNumber) {}
 function placeOrder(cardNumber) {
-  if (cardNumber == null) {
-    console.log("We don't have a credit card on file for you to place your order.");
+  if (cardNumber === null) {
+    return ("We don't have a credit card on file for you to place your order.");
   }
   else {
     console.log(`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`);
