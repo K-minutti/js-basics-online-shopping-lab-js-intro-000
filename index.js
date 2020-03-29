@@ -28,14 +28,14 @@ function viewCart() {
   if (cart.length > 1){
 for(let i =0, len=cart.length; i<len; i++ ) {
   //inner iterator
-  for (let moreitems in cart[i]) {
-    return  `In your cart, you have ${cart[i][moreitems]} at $${cart[i].itemPrice},`
+  //for (let moreitems in cart[i]) {
+    return  `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice},`
 
 
   //  and ${cart[i].itemName} at $${cart[i].itemPrice}.`
   //  X at $X, // for all the items in between
 
-  }
+//  }
  }
 }
 }
