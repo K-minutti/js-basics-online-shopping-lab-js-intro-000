@@ -38,7 +38,7 @@ function total() {
     sumTotal = sumTotal += i;
   }
 }
-  
+
 
 function removeFromCart(item) {}
 
