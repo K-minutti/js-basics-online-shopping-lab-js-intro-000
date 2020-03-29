@@ -36,7 +36,7 @@ for(let i =0, len=cart.length; i<len; i++ ) {
     // for the last object in the array
   }
  }
-}
+
 
 // if the cart array has more than one element it follows this format
 // `In your cart, you have bananas at $17, and pancake batter at $5.` so we
