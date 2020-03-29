@@ -51,19 +51,5 @@ function total() {
   return cart
 }*/
 
-function removeFromCart(item) {
-  var l = cart.length;
-  for (var i = 0; i < l; i++) {
-    var items = cart[i];
-    if (items.hasOwnProperty(item)) {
-      cart.splice(i,1);
-    }
-  }
-  if (l === cart.length) {
-    console.log(`That item is not in your cart.`);
-  }
-  return cart
-}
-
 
 function placeOrder(cardNumber) {}
