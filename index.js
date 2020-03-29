@@ -31,8 +31,8 @@ function viewCart() {
     cart.forEach(function(object, index, array) {
       if (index > 0 && index < cart.length) {
        var object = object
-       //var middleitems = [] 
-       console.log(object["itemName"] + " at $"object["itemPrice"] + "," )
+       //var middleitems = []
+       console.log(object["itemName"] + " at $"object["itemPrice"] + ",")
         return `${object["itemName"]} at $${object["itemPrice"]},`
       };
       })
