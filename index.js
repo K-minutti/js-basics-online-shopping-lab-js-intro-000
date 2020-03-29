@@ -27,7 +27,7 @@ function viewCart() {
   if (cart.length === 2) {
     for (let i in cart){
       for (twoItems in cart[i]){
-        return twoItems
+        return twoItems[0,1]
       }
     }
   }
