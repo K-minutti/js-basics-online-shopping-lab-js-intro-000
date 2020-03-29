@@ -46,12 +46,12 @@ function removeFromCart(item) {
   var nameOfItem = cart[n]['itemName'];
   if (item == nameOfItem) {
     cart.splice(n,1);
+    return cart
   }
-}
   else {
-    return `That item is not in your cart.`
-  }
-  return cart
+      return `That item is not in your cart.`
+    }
+ } 
 }
 
 //function placeOrder(cardNumber) {}
