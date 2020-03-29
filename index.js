@@ -28,14 +28,15 @@ function viewCart() {
   if (cart.length > 1){
 for(let i =0, len=cart.length; i<len; i++ ) {
   //inner iterator
-  //for (let moreitems in cart[i]) {
-    return  `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice},`
+    const first =  cart[i].first()
+    const middle = cart[i].splice() after first and before last 
+    const last = cart[i].last()
+
+    return `In your cart, you have ${first.itemName} at ${first.ItemPrice}, ${X at $X loop }, and lastObjectItemName at $LastObjectItemPrice.`
 
 
-  //  and ${cart[i].itemName} at $${cart[i].itemPrice}.`
-  //  X at $X, // for all the items in between
+    //return  `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice},`
 
-//  }
  }
 }
 }
