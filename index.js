@@ -32,9 +32,9 @@ for(let i =0, len=cart.length; i<len; i++ ) {
     return  `In your cart, you have ${cart[i][moreitems]} at $${cart[i][moreitems]},`
     // for the first object in the array
 
-    X at $X, // for all the items in between
+  //  X at $X, // for all the items in between
 
-     and x at $X.}
+  //   and x at $X.}
     // for the last object in the array
   }
  }
