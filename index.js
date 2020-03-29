@@ -32,9 +32,9 @@ function viewCart() {
       if (index > 0 && index < cart.length) {
        var object = object
       // var middleitems = []
-      return `${object["itemName"]} at $${object["itemPrice"]},`
+      console.log(object["itemName"] at $object["itemPrice"],)}
       };
-      })
+    });
       //take the object.itemName & object.itemPrice of each object and create mutliple `itemName at $itemPrice,` statements and we want to push them all into a variable/array }
 
     //return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, ${loopvariable} and ${cart[-1]["itemName"]} at $${cart[-1]["itemPrice"]}.`
