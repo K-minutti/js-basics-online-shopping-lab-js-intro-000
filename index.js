@@ -38,7 +38,6 @@ function viewCart() {
       }
   }
 
-
 function removeFromCart(item) {}
 
 function total() {}
