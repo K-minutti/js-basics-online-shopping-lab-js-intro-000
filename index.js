@@ -47,10 +47,10 @@ function removeFromCart(item) {
     if (item == nameOfItem) {
     cart.splice(n,1);
     return cart
-  } 
+  }
  }
  if {
-   
+
  }
 }
 
