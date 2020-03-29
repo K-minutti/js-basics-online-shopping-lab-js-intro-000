@@ -27,17 +27,6 @@ function viewCart() {
   if (cart.length === 2) {
    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, and ${cart[1]["itemName"]} at $${cart[1]["itemPrice"]}.`}
 
-  if (cart.length > 2) {
-    var newArray = []
-    for (let object = 0; object < cart.length; object++) {
-      var index = [cart[index]]
-      if (index > 0 && index < cart.length) {
-        var middleObjects = console.log(`${object["itemName"]} at $${object["itemName"]},`);
-        newArray.push(middleObjects);
-    }
-      }
-    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, ${newArray} and ${cart[-1]["itemName"]} at $${cart[-1]["itemPrice"]}.`
-  }
 }
 
 function removeFromCart(item) {}
