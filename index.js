@@ -24,7 +24,7 @@ function viewCart() {
   if (cart.length > 0 ) {
 
     for (let itemN in cart) {
-      return `In your cart, you have` cart[intemN]}
+      return `In your cart, you have` + cart[intemN]}
     }
 
 
