@@ -34,7 +34,7 @@ function viewCart() {
       if (index > 0 && index < cart.length) {
         const middleObjects = `${object["itemName"]} at $${object["itemName"]},`;
       //  newArray.push(middleObjects);
-      console.log("In your cart, you have " +  cart[0]['itemName'] " at $" + cart[0]['itemPrice'] + middleObjects + "and " + cart[-1]['itemName'] + " at $" + cart[-1]['itemPrice'] + ".");
+      console.log("In your cart, you have " +  cart[0]["itemName"] " at $" + cart[0]["itemPrice"] + middleObjects + "and " + cart[-1]["itemName"] + " at $" + cart[-1]["itemPrice"] + ".");
     }
       }
   }
