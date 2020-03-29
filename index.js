@@ -27,10 +27,11 @@ function viewCart() {
     }
   if (cart.length > 1){
 for(let i =0; len<cart.length; i++ ) {
+
     const first = cart[0]
     //const middle = cart[i].splice() after first and before last
     const last = cart[-1]
-
+console.log(last)
     return `In your cart, you have X at $X,  and ${last.ItemName} at ${last.ItemPrice}.`
 //${X at $X loop },
 
