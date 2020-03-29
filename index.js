@@ -27,7 +27,7 @@ function viewCart() {
   if (cart.length === 2) {
     for (let i in cart){
       for (twoItems in cart[i]){
-        console.log(twoItems)
+        console.log(twoItems.itemName, twoItems.itemPrice)
       }
     }
   }
