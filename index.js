@@ -30,7 +30,6 @@ function viewCart() {
   if (cart.length > 2) {
     for (let object = 0; object < cart.length; object++) {
       if (indexOf(object) > 0 && indexOf(object) < cart.length) {
-        var object = object;
         const middleObjects = `${object["itemName"]} at $${object["itemName"]},`;
         return middleObjects;
       };
