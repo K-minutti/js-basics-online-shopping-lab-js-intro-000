@@ -32,8 +32,6 @@ for(let i =0, len=cart.length; i<len; i++ ) {
     return  `In your cart, you have ${cart[i][moreitems]} at $${cart[i].itemPrice}, and ${cart[i][moreitems]} at $${cart[i].itemPrice}.`
   //  X at $X, // for all the items in between
 
-and x at $X.
-    // for the last object in the array
   }
  }
 }
