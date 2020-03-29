@@ -27,6 +27,12 @@ function viewCart() {
   if (cart.length === 2) {
    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, and ${cart[1]["itemName"]} at $${cart[1]["itemPrice"]}.`
     }
+  if (cart.length > 2) {
+    /*create a loop that provides every object between the first and last in this format:
+    "itemName at $itemPrice, "
+    */
+    return `In your cart, you have ${cart[0]["itemName"]} at $${cart[0]["itemPrice"]}, ${loopvariable} and ${cart[-1]["itemName"]} at $${cart[-1]["itemPrice"]}.`
+  }
 }
 
 
