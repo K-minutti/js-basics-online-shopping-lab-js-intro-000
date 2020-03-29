@@ -26,11 +26,11 @@ function viewCart() {
       return `In your cart, you have ` +  cart[items].itemName + ` at $` + cart[items].itemPrice +`.`}
     }
   if (cart.length > 1){
-for(let i =0, len=cart.length; i<len; i++ ) {
+//for(let i =0, len=cart.length; i<len; i++ ) {
   //inner iterator
-    const first =  cart[i][0]
+    const first =  cart[0]
     //const middle = cart[i].splice() after first and before last
-    const last = cart[i][-1]
+    const last = cart[-1]
 
     return `In your cart, you have ${first.itemName} at ${first.ItemPrice},  and ${last.ItemName} at ${last.ItemPrice}.`
 //${X at $X loop },
