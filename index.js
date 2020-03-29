@@ -41,7 +41,7 @@ function total() {
 }
 
 
-/*function removeFromCart(item) {
+function removeFromCart(item) {
   loop through the cart array retrieving every itemName in each object set it equal to variable
   if (variable[itemName] === item ) {
     cart.splice(the index of the variable[itemName])
@@ -49,7 +49,7 @@ function total() {
   else { console.log(`That item is not in your cart.`);
   }
   return cart
-}*/
+}
 
 
 function placeOrder(cardNumber) {}
