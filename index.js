@@ -35,8 +35,9 @@ function total() {
   var sumTotal = 0;
   for (var i = 0; i < cart.length; i++) {
    var price = cart[i]['itemPrice']
-  return  sumTotal = sumTotal += price
+   sumTotal = sumTotal += price
   }
+  return sumTotal
 }
 
 
